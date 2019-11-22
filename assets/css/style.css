@@ -60,6 +60,18 @@ body {
   height: 14px;
 }
 
+.nav-home {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.logo {
+  margin-top: 60px;
+  width: 90px;
+  height: 110px;
+}
+
 .nav-home a {
   color: #fff;
 }
@@ -86,12 +98,6 @@ body {
   font-size: 20px;
 }
 
-.logo-icon-header img {
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-}
-
 .judul-header-home {
   margin-top: 120px;
   color: #fff;
@@ -106,30 +112,27 @@ body {
 }
 
 .bunder-find {
+  position: relative;
+  top: 180px;
   width: 90px;
   height: 90px;
-  border-radius: 50%;
-  background-color: transparent;
-  border: 3px solid yellow;
-  margin: 10% auto 0 auto;
+  border-radius: 100%;
+  border: 2px solid yellow;
+  padding: 5px;
+  margin: auto;
 }
 
 .find-bunder {
-  width: 70px;
-  height: 70px;
-  border-radius: 50%;
-  line-height: 90px;
-  margin: auto;
-  margin-top: 7px;
-  background-color: black;
+  border-radius: 100%;
+  padding: 26px 0;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
-.find-bunder h1 {
-  font-size: 12px;
+.find-bunder span {
+  font-size: 16px;
+  font-weight: 500;
   text-transform: uppercase;
   color: #fff;
-  text-align: center;
-  line-height: 70px;
 }
 
 /* +++++++++++++++++++++++++ END STYLE HEADER +++++++++++++++++++++++++ */
@@ -424,8 +427,7 @@ body {
 /* ++++++++++++++++++++++++ END STYLE GALLERY ++++++++++++++++++++++++++++++++++ */
 
 footer {
-  width: 100%;
-  height: 550px;
+  width: 100vw;
   background-image: url(../img/bg-footer.png);
   background-size: cover;
 }

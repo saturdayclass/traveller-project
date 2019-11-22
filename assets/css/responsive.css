@@ -1,23 +1,66 @@
-@media only screen and (max-width: 480px) {
-    body {
-        overflow-x: hidden;
-    }
+@media (max-width: 575.98px) {
+  body {
+    overflow-x: hidden;
+  }
 
-    /* +++++++++++++ HEADER +++++++++++++ */
+  #navigation-menu {
+    visibility: hidden;
+  }
 
+  .header-home {
+    height: 100vh;
+    background-image: url(../img/clip.png);
+    background-size: cover;
+  }
 
-    .header-home {
-        height: 100vh;
-        background-image: url(../img/clip.png);
-        background-size: cover;
-    }
+  .judul-header-home > h1 {
+    font-size: 24px;
+    font-weight: 600;
+  }
 
-    .header-home .row {
-        margin-right: 0;
-        margin-left: 0;
-    }
+  .judul-header-home > p {
+    font-size: 12px;
+    font-weight: 600;
+  }
 
+  .header-home .row {
+    margin-right: 0;
+    margin-left: 0;
+  }
 
+  .logo {
+    margin-top: 60px;
+    width: 65px;
+    height: 80px;
+  }
 
-    /* +++++++++++++ END HEADER +++++++++++++ */
+  .coconut-section {
+    border-radius: 10px;
+    padding: 0 20px;
+  }
+
+  .text-coconut {
+    visibility: visible;
+  }
+
+  .isi-coconut,
+  .isi-coconut-2 {
+    visibility: hidden;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  ...;
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  ...;
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  ...;
+}
+
+@media (min-width: 1200px) {
+  ...;
 }
