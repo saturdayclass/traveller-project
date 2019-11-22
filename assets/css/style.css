@@ -1,0 +1,403 @@
+/* +++++++++++++++++++ FONT FACE ++++++++++++++++++++++++++++ */
+@font-face {
+    font-family: 'lato';
+    src: url(../fonts/lato.ttf);
+}
+
+/* +++++++++++++++++++ END FONT FACE ++++++++++++++++++++++++ */
+
+body {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    font-family: 'lato';
+}
+
+.no-border {
+    border: none;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+}
+
+
+/* +++++++++++++++++++ STYLE HEADER ++++++++++++++++++++++++++ */
+
+.header-home {
+    width: 100%;
+    height: 750px;
+    background-image: url(../img/Image.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.navbar.nav-home {
+    padding: 22px 0;
+}
+
+.bg-nav {
+    width: 100%;
+    height: 60px;
+    background-color: #000000;
+    opacity: 60%;
+}
+
+.img-flag {
+    width: 14px;
+    height: 14px;
+}
+
+.nav-home a {
+    color: #fff;
+}
+
+.nav-home .nav-item a:hover {
+    text-decoration: none;
+    color: orange;
+}
+
+.navbar-nav li a i:hover {
+    color: orange;
+}
+
+.navbar-nav li a:hover {
+    text-decoration: none;
+}
+
+.nav-item a {
+    margin-right: 38px;
+}
+
+
+.sosmed-nav-home {
+    margin-right: 17px;
+    font-size: 20px;
+}
+
+.logo-icon-header img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.judul-header-home {
+    margin-top: 120px;
+    color: #fff;
+}
+
+.judul-header-home h1 {
+    font-size: 72px;
+}
+
+.judul-header-home p {
+    font-size: 20px;
+}
+
+.bunder-find {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 3px solid yellow;
+    margin: 10% auto 0 auto;
+
+}
+
+.find-bunder {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    line-height: 90px;
+    margin: auto;
+    margin-top: 7px;
+    background-color: black;
+}
+
+.find-bunder h1 {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    line-height: 70px;
+}
+
+/* +++++++++++++++++++++++++ END STYLE HEADER +++++++++++++++++++++++++ */
+
+/* +++++++++++++++++++++++++ STYLE SECTION BAWAH HEADER +++++++++++++++++++++++++ */
+.menu-section-kanan,
+.menu-section-kiri {
+    margin-top: -15px;
+}
+
+/* +++++++++++++++++++++++++ END STYLE SECTION BAWAH HEADER +++++++++++++++++++++++++ */
+
+/* +++++++++++++++++++++++++ STYLE WELLCOME SECTION +++++++++++++++++++++++++ */
+.wellcome-section {
+    background-image: url(../img/half-sun.png);
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-size: 200px !important;
+}
+
+.nav-link {
+    color: #000000;
+}
+
+.nav-link.active {
+    color: #15AEEF;
+}
+
+/* +++++++++++++++++++++++++ END STYLE WELLCOME SECTION +++++++++++++++++++++++++ */
+
+/* +++++++++++++++++++++++++ STYLE EXPLORE SECTION +++++++++++++++++++++++++ */
+.kartu-kartu .col-md-3 {
+    padding: 0;
+}
+
+.kartu-kartu .col-md-3 .card {
+    margin: 0 !important;
+    border: none;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+}
+
+.kartu-kartu .col-md-3 .card img {
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+}
+
+.embed-responsive {
+    height: 700px;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+
+.card-title-home {
+    position: relative;
+    bottom: 0;
+    top: 90%;
+    left: 0%;
+    right: 0;
+    font-size: 28px;
+    display: block;
+    transition: all 0.5s ease;
+}
+
+.judul-card-hover {
+    font-size: 28px;
+    color: #42BEF2;
+    opacity: 0;
+    display: none;
+    padding-top: 40%;
+    transition: all 0.5s ease;
+}
+
+.cuacah {
+    opacity: 0;
+    display: none;
+    transition: all 0.5s ease;
+}
+
+.dis-card-hover {
+    color: #fff;
+    font-size: 14px;
+    opacity: 0;
+    display: none;
+    transition: all 0.5s ease;
+}
+
+.dis-hover-satu,
+.dis-hover-dua {
+    font-size: 13px;
+    color: #fff;
+    margin-bottom: 3%;
+    opacity: 0;
+    display: none;
+    transition: all 0.5s ease;
+}
+
+.btn-explore {
+    width: 120px;
+    height: 35px;
+    border-radius: 40px;
+    background-color: #42BEF2;
+    color: #fff;
+    border: 0;
+    font-size: 12px;
+    transition: all 0.5s ease;
+    opacity: 0;
+    display: none;
+}
+
+.kartu-gambar {
+    transition: all 0.5s ease;
+}
+
+.kartu-gambar .bg-hitam:hover {
+    transition: all 0.5s ease;
+    background-color: black;
+    cursor: pointer;
+}
+
+.kartu-gambar:hover .judul-card-hover,
+.kartu-gambar:hover .cuacah,
+.kartu-gambar:hover .dis-card-hover,
+.kartu-gambar:hover .dis-hover-satu,
+.kartu-gambar:hover .dis-hover-dua,
+.kartu-gambar:hover .btn-explore {
+    opacity: 1;
+    display: block;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+
+.kartu-gambar:hover .card-title-home {
+    display: none;
+}
+
+/* +++++++++++++++++++++++++ END STYLE EXPLORE SECTION +++++++++++++++++++++++++ */
+
+/* +++++++++++++++++++++++++ STYLE ACTIVITIES SECTION +++++++++++++++++++++++++ */
+
+.tinggi-setengah {
+    height: 40vw !important;
+    max-height: 40vw !important;
+}
+
+.tinggi-seperempat {
+    height: 20vw !important;
+    max-height: 20vw !important;
+}
+
+.card-raihan-satu {
+    background-image: url(../img/aa1.png);
+    height: 550px;
+    padding-top: 150px;
+    background-size: contain;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    background-repeat: no-repeat;
+}
+
+.card-raihan-dua {
+    background-image: url(../img/aa2.png);
+    height: 275px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.card-background1 {
+    background-image: url(../img/Mask\ Group\ 9.png) !important;
+}
+
+.card-background2 {
+    background-image: url(../img/Mask\ Group\ 10.png) !important;
+}
+
+.card-background3 {
+    background-image: url(../img/IMG_0135.png) !important;
+}
+
+.bungkus-bintang {
+    margin: auto;
+    width: 100%;
+    height: 50px;
+}
+
+.bintang {
+    color: #F9D611;
+    text-align: center;
+}
+
+.btn-detail {
+    width: 120px;
+    height: 35px;
+    border-radius: 40px;
+    background-color: #42BEF2;
+    color: #fff;
+    border: 0;
+    font-size: 12px;
+    transition: all 0.5s ease;
+    margin-left: 33%;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+
+.card-riyaldi-satu {
+    padding-top: 15%;
+    height: 275px;
+    background-color: #EDF4F7;
+}
+
+.card-riyaldi-satu p {
+    font-size: 14px;
+}
+
+.icon-why {
+    margin-left: 45%;
+    margin-top: 20%;
+}
+
+/* +++++++++++++++++++++++++ END STYLE ACTIVITIES SECTION +++++++++++++++++++++++++ */
+
+/* +++++++++++++++++++++++++ STYLE COCONUT SECTION +++++++++++++++++++++++++ */
+.coconut-section {
+    background: url(../img/Mask\ Group\ 6.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+
+.isi-coconut {
+    background: url(../img/mask\ bg.png);
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 60% !important;
+    margin-left: 40%;
+}
+
+.isi-coconut-2 {
+    background: url(../img/mask\ bg.png);
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 100% !important;
+    margin-left: 4%;
+    padding-top: 30%;
+}
+
+.text-coconut {
+    width: 65%;
+    margin-left: 20%;
+}
+
+.tombol-coconut {
+    margin-left: 30%;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+/* +++++++++++++++++++++++++ END STYLE COCONUT SECTION +++++++++++++++++++++++++ */

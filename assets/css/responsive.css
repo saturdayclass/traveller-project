@@ -1,0 +1,23 @@
+@media only screen and (max-width: 480px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    /* +++++++++++++ HEADER +++++++++++++ */
+
+
+    .header-home {
+        height: 100vh;
+        background-image: url(../img/clip.png);
+        background-size: cover;
+    }
+
+    .header-home .row {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+
+
+    /* +++++++++++++ END HEADER +++++++++++++ */
+}
