@@ -29,7 +29,7 @@ body {
     width: 100%;
     height: 750px;
     background-image: url(../img/Image.png);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
@@ -286,7 +286,7 @@ body {
     background-image: url(../img/aa1.png);
     height: 550px;
     padding-top: 150px;
-    background-size: contain;
+    background-size: cover;
     padding-bottom: 0;
     margin-bottom: 0;
     background-repeat: no-repeat;
@@ -295,7 +295,7 @@ body {
 .card-raihan-dua {
     background-image: url(../img/aa2.png);
     height: 275px;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
@@ -401,3 +401,54 @@ body {
 }
 
 /* +++++++++++++++++++++++++ END STYLE COCONUT SECTION +++++++++++++++++++++++++ */
+
+
+/* ++++++++++++++++++++++++ STYLE GALLERY +++++++++++++++++++++++++++++++++ */
+
+.carousel-control-next {
+    right: 25px;
+}
+
+.carousel-control-prev {
+    left: 25px;
+}
+
+/* ++++++++++++++++++++++++ END STYLE GALLERY ++++++++++++++++++++++++++++++++++ */
+
+footer {
+    width: 100%;
+    height: 500px;
+    background-image: url(../img/bg-footer.png);
+    background-size: cover;
+}
+
+.input-footer {
+    height: 40px;
+    border-radius: 40px 0 0 40px;
+    float: left;
+    border: none;
+    background-color: #111111;
+    color: #555555;
+    padding-left: 20px;
+    font-size: 12px;
+    width: 70%;
+}
+
+.btn-footer {
+    border-radius: 0 40px 40px 0;
+    border: none;
+    font-size: 12px;
+    background-color: #42BEF2;
+    height: 40px;
+    width: 30%;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.sosmed-footer-home {
+    font-size: 22px;
+    margin: 0 10px;
+    color: #fff;
+}
+
+/* ++++++++++++++++++++++++ STYLE FOOTER +++++++++++++++++++++++++++++++++ */
