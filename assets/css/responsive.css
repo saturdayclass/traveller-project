@@ -1,7 +1,7 @@
 @media only screen and (max-width: 480px) {
-    * {
+    /* * {
         overflow-x: hidden;
-    }
+    } */
 
     /* +++++++++++++ HEADER +++++++++++++ */
 
@@ -17,12 +17,12 @@
         margin-left: 0;
     }
 
-    .logo-icon-header img{
+    .logo-icon-header img {
         width: 53px;
         height: 64px;
     }
 
-    .judul-header-home h1{
+    .judul-header-home h1 {
         font-size: 25px;
     }
 
@@ -52,6 +52,7 @@
     .judul-bawah-header-raihan {
         color: #959595;
         margin-top: 30px;
+        text-align: center;
     }
 
     .judul-welcome-raihan {
@@ -67,6 +68,15 @@
         margin-bottom: 30px;
     }
 
+    .container-wellcome-riyaldi {
+        padding-right: 15px !important;
+    }
+
+    .container-desc-riyaldi {
+        padding-left: 30px !important;
+        padding-right: 30px !important;
+    }
+
     /* +++++++++++++ END BAWAH HEADER +++++++++++++++++ */
 
 
@@ -74,6 +84,10 @@
 
     .kartu-gambar {
         border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
     }
 
     .deskripsi-explore a {
@@ -85,13 +99,36 @@
         font-weight: bold;
     }
 
+    .explore-section .container {
+        display: none;
+    }
+
+    .parallax-mobile-only-riyaldi {
+        height: 300px !important;
+        display: block;
+    }
+
+    .ukuran-parallax {
+        height: 286px !important;
+        width: 286px !important;
+        margin: 0 auto;
+    }
+
+    .rounded-riyaldi {
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+    }
+
     /* ++++++++++++ END EXPLORE ++++++++++++++++++++ */
 
     /* +++++++++++++ VIDEO SECTION ++++++++++++++++ */
 
     iframe {
         border-radius: 10px;
-        padding:0 3%;
+        padding: 0 3%;
         width: 85%;
         height: 150px;
     }
@@ -128,7 +165,7 @@
     .from-text-raihan {
         text-align: left;
     }
- 
+
     #mobile-hilang-raihan {
         display: none;
     }
@@ -167,7 +204,7 @@
         float: left;
         display: block;
     }
-    
+
 
     /* ++++++++++++++ END TOUR SECTION +++++++++++++++ */
 }
