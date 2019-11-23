@@ -115,22 +115,20 @@
     }
 
     .rounded-riyaldi {
-        border-radius: 20px;
-        -webkit-border-radius: 20px;
-        -moz-border-radius: 20px;
-        -ms-border-radius: 20px;
-        -o-border-radius: 20px;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
     }
 
     /* ++++++++++++ END EXPLORE ++++++++++++++++++++ */
 
     /* +++++++++++++ VIDEO SECTION ++++++++++++++++ */
-
-    iframe {
-        border-radius: 10px;
-        padding: 0 3%;
-        width: 85%;
-        height: 150px;
+    .video-section-size {
+        width: calc(100% - 30px);
+        height: auto;
+        margin: 0 auto;
     }
 
     /* +++++++++++++ END VIDEO SECTION ++++++++++++++ */
@@ -153,7 +151,11 @@
         height: 370px;
         padding-left: 10%;
         font-size: 18px;
-        padding-top: 75%;
+        padding-top: 65%;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
     }
 
     .card-raihan-satu h1 {
@@ -192,8 +194,13 @@
         margin: 0;
     }
 
-    #kepo-mumet {
-        margin: 0 0% 0 3% !important;
+    #kepo-mumet,
+    .kepo-riyaldi {
+        padding: 0 6px 0 12px !important;
+    }
+
+    .kepo-riyaldi-kanan {
+        padding: 0 12px 0 6px !important;
     }
 
     #raihan-card-mobile-satu h1 {
@@ -201,10 +208,52 @@
     }
 
     #kepo-mumet-raihan {
-        float: left;
         display: block;
     }
 
 
     /* ++++++++++++++ END TOUR SECTION +++++++++++++++ */
+
+    /* ++++++++++++++ WHY SECTION +++++++++++++++ */
+
+    .why-card {
+        padding: 0 10%;
+    }
+
+    /* ++++++++++++++ END WHY SECTION +++++++++++++++ */
+
+    /* ++++++++++++++ COCONUT SECTION +++++++++++++++ */
+    .coconut-section {
+        max-width: 100% !important;
+        overflow: hidden;
+        text-align: left;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+
+    .isi-coconut {
+        width: 100% !important;
+        margin-left: 0 !important;
+    }
+
+    .isi-coconut-2 {
+        width: 100%;
+        margin: 0 !important;
+    }
+
+    .text-coconut {
+        margin-left: 10%;
+    }
+
+    .margin-mobile {
+        margin: 0 12px;
+    }
+
+    /* ++++++++++++++ END COCONUT SECTION +++++++++++++++ */
+
+
+
 }
