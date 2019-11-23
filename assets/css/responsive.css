@@ -1,5 +1,5 @@
 @media only screen and (max-width: 480px) {
-    body {
+    * {
         overflow-x: hidden;
     }
 
@@ -17,7 +17,157 @@
         margin-left: 0;
     }
 
+    .logo-icon-header img{
+        width: 53px;
+        height: 64px;
+    }
+
+    .judul-header-home h1{
+        font-size: 25px;
+    }
+
+    .judul-header-home p {
+        font-size: 16px;
+    }
+
+    .bunder-find {
+        position: relative;
+        bottom: 20px;
+        top: 0;
+        left: 0;
+        right: 0;
+        display: block;
+    }
+
 
 
     /* +++++++++++++ END HEADER +++++++++++++ */
+
+    /* +++++++++++++ START BAWAH HEADER ++++++++++++ */
+
+    .menu-bawah-header {
+        display: none;
+    }
+
+    .judul-bawah-header-raihan {
+        color: #959595;
+        margin-top: 30px;
+    }
+
+    .judul-welcome-raihan {
+        text-align: center;
+        font-size: 30px;
+        color: #42BEF2;
+        margin-bottom: 30px;
+    }
+
+    .wellcome-section {
+        background-image: none;
+        background-color: #F5F7F5;
+        margin-bottom: 30px;
+    }
+
+    /* +++++++++++++ END BAWAH HEADER +++++++++++++++++ */
+
+
+    /* +++++++++++++ START SLIDER EXPROLE +++++++++++++++ */
+
+    .kartu-gambar {
+        border-radius: 10px;
+    }
+
+    .deskripsi-explore a {
+        font-size: 14px;
+    }
+
+    .deskripsi-explore h3 {
+        font-size: 23px;
+        font-weight: bold;
+    }
+
+    /* ++++++++++++ END EXPLORE ++++++++++++++++++++ */
+
+    /* +++++++++++++ VIDEO SECTION ++++++++++++++++ */
+
+    iframe {
+        border-radius: 10px;
+        padding:0 3%;
+        width: 85%;
+        height: 150px;
+    }
+
+    /* +++++++++++++ END VIDEO SECTION ++++++++++++++ */
+
+    /* +++++++++++++ TOUR SECTION ++++++++++++++++ */
+
+    .tour-aktif h1 {
+        color: #333333;
+        font-size: 25px;
+        margin-bottom: 30px;
+    }
+
+    #tempat-raihan-satu {
+        display: none;
+    }
+
+    .card-raihan-satu {
+        margin: 0 3%;
+        border-radius: 10px;
+        height: 370px;
+        padding-left: 10%;
+        font-size: 18px;
+        padding-top: 75%;
+    }
+
+    .card-raihan-satu h1 {
+        color: #fff;
+        text-align: left !important;
+        margin-bottom: 0;
+    }
+
+    .from-text-raihan {
+        text-align: left;
+    }
+ 
+    #mobile-hilang-raihan {
+        display: none;
+    }
+
+    #rate-raihan {
+        text-align: left !important;
+        margin-bottom: 0;
+    }
+
+    #hilang-kepo-raihan {
+        display: none;
+    }
+
+    #card-raihan-mobile-satu {
+        height: 176px !important;
+        padding-top: 20%;
+        margin: 3%;
+        font-size: 18px;
+    }
+
+    #raihan-card-mobile-satu {
+        height: 180px;
+        padding-top: 70%;
+        margin: 0;
+    }
+
+    #kepo-mumet {
+        margin: 0 0% 0 3% !important;
+    }
+
+    #raihan-card-mobile-satu h1 {
+        font-size: 18px;
+    }
+
+    #kepo-mumet-raihan {
+        float: left;
+        display: block;
+    }
+    
+
+    /* ++++++++++++++ END TOUR SECTION +++++++++++++++ */
 }

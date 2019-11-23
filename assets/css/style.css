@@ -405,19 +405,12 @@ body {
 
 /* ++++++++++++++++++++++++ STYLE GALLERY +++++++++++++++++++++++++++++++++ */
 
-.carousel-control-next {
-    right: 25px;
-}
-
-.carousel-control-prev {
-    left: 25px;
-}
 
 /* ++++++++++++++++++++++++ END STYLE GALLERY ++++++++++++++++++++++++++++++++++ */
 
 footer {
     width: 100%;
-    height: 550px;
+    height: auto;
     background-image: url(../img/bg-footer.png);
     background-size: cover;
 }
@@ -452,3 +445,11 @@ footer {
 }
 
 /* ++++++++++++++++++++++++ STYLE FOOTER +++++++++++++++++++++++++++++++++ */
+
+.from-text-raihan {
+    text-align: center;
+}
+
+#kepo-mumet-raihan {
+    display: none;
+}
